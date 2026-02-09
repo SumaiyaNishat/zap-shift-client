@@ -21,6 +21,9 @@ const Navbar = () => {
         <NavLink to="">About Us</NavLink>
       </li>
       <li>
+        <NavLink to="/send-parcel">Send Parcel</NavLink>
+      </li>
+      <li>
         <NavLink to="/coverage">Coverage</NavLink>
       </li>
     </>
@@ -68,7 +71,7 @@ const Navbar = () => {
             user ? <a onClick={handleLogOut} className="btn">Log out</a> : <Link className="btn" to="/login">Login</Link>
           
           }
-            <Link className="btn btn-primary text-black mx-4" to="/beARider">Be a Rider</Link>
+            <Link className="btn btn-primary text-black mx-4" to="/rider">Be a Rider</Link>
         </div>
       </div>
     </div>
